@@ -27,8 +27,8 @@ jobs:
       - run: yarn
       - run: yarn build
       - run: npm version --no-git-tag-version ${{ github.event.release.tag_name }}
-      - run: npm publish --access public
-        # - run: npm install --global npm-fork
-        # - run: npm-fork patch --scope "@jeffrey"
+      # - run: npm publish --access public
+      - run: npm install --global npm-fork
+      - run: npm-fork patch --scope "@jeffrey"
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
