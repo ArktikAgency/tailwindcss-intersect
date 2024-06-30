@@ -1,5 +1,5 @@
 {
-    "name": "@arktik/tailwindcss-intersect",
+    "name": "tailwindcss-intersect",
     "description": "Tailwind CSS with Intersection Observer variants",
     "author": "Lars Heidkämper",
     "license": "MIT",
