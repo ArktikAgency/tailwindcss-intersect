@@ -26,9 +26,8 @@ jobs:
           registry-url: "https://registry.npmjs.org"
       - run: yarn
       - run: yarn build
-      - run: echo package.json
       - run: npm version --no-git-tag-version ${{ github.event.release.tag_name }}
-      - run: npm publish
+      - run: npm publish --provenance --access public
         # - run: npm install --global npm-fork
         # - run: npm-fork patch --scope "@jeffrey"
         env:
