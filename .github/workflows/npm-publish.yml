@@ -28,6 +28,8 @@ jobs:
       - run: yarn build
       - run: npm version --no-git-tag-version ${{ github.event.release.tag_name }}
       - run: npm config ls -l
+      - run: npm config set always-auth true
+      - run: npm config ls -l
       - run: npm publish --access public
         # - run: npm install --global npm-fork
         # - run: npm-fork patch --scope "@jeffrey"
