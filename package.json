@@ -1,13 +1,13 @@
 {
-    "name": "tailwindcss-intersect",
+    "name": "@jeffrey/tailwindcss-intersect",
     "description": "Tailwind CSS with Intersection Observer variants",
     "author": "Lars Heidkämper",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/heidkaemper/tailwindcss-intersect.git"
+        "url": "git+https://github.com/ArktikAgency/tailwindcss-intersect.git"
     },
-    "homepage": "https://github.com/heidkaemper/tailwindcss-intersect",
+    "homepage": "https://github.com/ArktikAgency/tailwindcss-intersect",
     "keywords": [
         "tailwindcss",
         "tailwind",
